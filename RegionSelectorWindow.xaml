@@ -1,0 +1,19 @@
+﻿<Window x:Class="TaskTrackerWPF.RegionSelectorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="#5500FFFF"
+        Topmost="True"
+        ResizeMode="CanResizeWithGrip"
+        Width="200" Height="100"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Title="Drag to Select Region">
+    <Grid>
+        <Button Content="Lock In"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Margin="10"
+                Click="LockIn_Click"/>
+    </Grid>
+</Window>
